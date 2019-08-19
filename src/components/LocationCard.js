@@ -13,7 +13,7 @@ export default function LocationCard(props) {
         <Card.Meta>
           Dimension: {props.location.dimension}
         </Card.Meta>
-        <Card.Meta extra>
+        <Card.Meta extra="true">
           {props.location.residents.length} Residents
         </Card.Meta>
       </Card.Content>
